@@ -1,0 +1,11 @@
+name: aws-project-1
+description: AWS Project for S3 and EKS IaC deployment
+runtime:
+  name: nodejs
+  options:
+    typescript: false
+    packagemanager: npm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-javascript

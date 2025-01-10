@@ -1,0 +1,35 @@
+Pulumi for IaC.
+
+Usually Domain specific language / JSON / YAML is used.
+Because it is easy to use and also define resources.
+
+But if we want to add conditionals:
+1. Congitions: Create EC2 instance if this condition is met.
+2. Loops: create 20 EC2 instances with the same configuration.
+3. Functions: 20 EC2 with same configuration with some specific
+configuration for each of them.
+
+Hence, Pulumi allows writing IaC in a programming langauge
+of your choice.
+JS, TS, Python, C#, Go.
+
+Pulumi you can use the language of choice where you have
+expertise for building infrastructure.
+
+
+You can also write tests like Unit and Integration tests for your
+infrastructure code. Better understanding between Dev and Ops.
+
+To create tools, frameworks, and dev tools.
+
+resources are declared as objects in code.
+
+Pulumi is like Git.
+Pulumi Cloud is like GitHub.
+
+Pulumi Cloud stores metadata, called State, so that it can manage your 
+cloud resources. State is how the Pulumi CLI knows when and how to create, 
+read, delete, or update cloud resources.
+
+The first step in getting started with Pulumi is to download the CLI and 
+connect your CLI session with your newly created Pulumi Cloud account.
